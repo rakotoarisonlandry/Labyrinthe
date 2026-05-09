@@ -1,0 +1,34 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Maze icon">
+  <style>
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #0B0F1A; }
+      .stroke { stroke: #F8FAFC; }
+      .accentStart { fill: #22C55E; }
+      .accentEnd { fill: #F59E0B; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0B0F1A; }
+      .stroke { stroke: #F8FAFC; }
+      .accentStart { fill: #22C55E; }
+      .accentEnd { fill: #F59E0B; }
+    }
+  </style>
+
+  <rect class="bg" width="180" height="180" rx="38" />
+
+  <!-- Maze strokes -->
+  <g class="stroke" fill="none" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.96">
+    <path d="M38 44H142V136H38V44Z" />
+    <path d="M62 68H118V112H62V68Z" />
+    <path d="M38 88H64" />
+    <path d="M116 88H142" />
+    <path d="M90 44V66" />
+    <path d="M90 114V136" />
+    <path d="M62 90H84" />
+    <path d="M96 90H118" />
+  </g>
+
+  <!-- Start / Exit dots -->
+  <circle class="accentStart" cx="48" cy="48" r="9" />
+  <circle class="accentEnd" cx="132" cy="132" r="9" />
+</svg>
