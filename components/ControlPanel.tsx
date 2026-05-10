@@ -184,7 +184,7 @@ export function ControlPanel() {
       </Card>
 
       <div className="px-6 pb-6 text-xs text-muted-foreground/60">
-        v1.0 - Visualiseur de Labyrinthe
+        copyright &copy; 2026 - Explorateur Labyrinthe. Tous droits réservés.
       </div>
     </div>
   );
